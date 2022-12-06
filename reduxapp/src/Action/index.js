@@ -1,8 +1,13 @@
 
 export const Increment =()=>{
-    type:"INCREMENT";
+    return{
+        type:"INCREMENT"
+    }
 }
 
 export const Decrement =()=>{
-    type:"DECREMENT";
+    return{
+        type:"DECREMENT"
+    }
+    
 }
